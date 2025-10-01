@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--the head element contains info about our webpage-->
+        <title> My first Website</title>
+        <link rel ='icon' type="image/jpg" href="migeria.jpeg"><!--this is how you add the icon near the website name -->
+    </head>
+    <body><!--This is different heading types and sizes-->
+        <header style="background-color: pink;"> 
+            <h1>Welcome to my website</h1>
+            <a href="">Home</a>
+            <hr>
+        </header>
+        <h1>This is a h1 heading</h1>
+        <h2>This is an h2 heading</h2>
+        <h3>This is an h3 heading</h3>
+        <h4>This is an h4 heading</h4> 
+        <h5>This is an h5 heading</h5>
+        <br> <!--Line Break:use this if i need a line break doesnt need and closing tags self closing-->
+        <hr><!--Horizontal Rule: adds a horizontal line across the page-->
+
+
+        <p><!-- this to create a paragrph and they are seprated with a line ebreak-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod suscipit veritatis animi,
+
+            provident fugit praesentium incidunt mollitia ratione saepe eligendi nostrum
+
+            accusamus earum voluptatum nisi consectetur dolores recusandae harum ab.
+
+        </p><!--in paragraphs wheater you addd spaces or not nothing changes-->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod suscipit veritatis animi, provident fugit praesentium incidunt mollitia ratione saepe eligendi nostrum accusamus earum voluptatum nisi consectetur dolores recusandae harum ab.
+            
+        </p>
+        <pre><!--pre tag retains any line brakes or spaces-->
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            
+        Fugiat neque voluptatum tenetur ad officiis sint magnam 
+            quibusdam placeat rerum! Laborum deserunt necessitatibus r
+            eiciendis cum tempore commodi dicta omnis voluptas qui?
+
+        </pre>
+        <!--How to add hyper links-->
+        <a href="https://www.google.com/?zx=1757269639857&no_sw_cr=1"
+        target="_blank"
+        title="goes to google"> <!-- anchor tags to create hyperlinks,needs href:Hyper Text refrence link your url, target _blank open the url in a new tab, title: when you hover over the the link it will display text-->
+            click me
+        </a>
+        <br>
+        <a href="lyrics.html"> <!--link to another file-->
+            song lyrics
+        </a>
+        <br>
+        <a href="mailto:dkalu3223@gmail.com"><!--email-->
+            email me:
+
+        </a>
+        <br>
+        <!--Adding images-->
+        <img src= "migeria.jpeg" height="200" alt="This is a picture of my family in nigeria" >
+        <!--To add  autoplay: plays immeadiatly,muted,auto mute,loop:loops one the song is over-->
+        <p>Funny How the universe works</p>
+        <audio controls  loop><!--controls tag allows song to show up on the wbesite , play rewind and mute-->
+            <source src="song.mp3">
+        </audio>
+        <!--
+        to add video use video tags annd source
+        <a href='some link' target= _blank> if you want the video to hyperlink to a nother website
+        <video> src="exmaplevideo.mp4 width='500px"</video> controls autoplay loop muted
+        <a>
+        Text Formatting-->
+        <p>This is normal text</p>
+        <p>This is <b>bold</b> text</p>
+        <p>This is <i>italic</i> text</p>
+        <p>This is <u>underlined</u> text</p>
+        <p>This is <del>deleted</del> text</p>
+        <p>This is <big>big</big>> text</p>
+        <p>This is <small>small</small>text </p>
+        <p>This is <sub>subscript</sub> text</p>
+        <p>This is <sup>superscript</sup> text</p>
+        <p>This is <tt>monospaced</tt> text</p>
+        <p>This is <mark style="background-color:magenta">normal</mark> text</p>
+        <!--Span and Div 
+        <span>:Inline container to group element for styling purposes 
+        <div> block container to group elements for styling purposes-->
+        <h1><span style='background-color:tomato'>This is a span title</span></h1> <!--span is only putting stle around the text-->
+        <h1><div style='background-color:cyan'>This is a div title</div></h1><!--div put the style on that whole block for the window-->
+        <p><span style='background-color:lavenderblush'>
+            This is a span scentance</span>
+        </p>
+         <p><div style='background-color:hotpink'> 
+            This is a div scentance</div>
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style='background-color:hotpink'>Ullam provident atque illum ratione dolor quia dolores inventore alias sapiente doloribus officiis vero, </span>iure quasi labore dolorem quibusdam illo ab facere.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<div style='background-color:cyan'>Accusantium placeat inventore magni porro dolorum aliquid corrupti natus quibusdam, laudantium maiores, dicta fugit</div> delectus aliquam fugiat. Ex accusantium similique explicabo nisi?</p>
+        <!--so when using a div tag in paragrph it will seperate the scentance completly from the pargraph and addd the style to the entire block of the page-->
+        <!--create list in html-->
+        <!--unordered-->
+        <h3>Grocery List</h3>
+        <ul>
+            <li>milk</li>
+            <li>eggs</li>
+            <li>bread</li>
+            <li>coffee suppliie</li>
+            <ul>
+                <li>cofeee</li>
+                <li>cremer</li>
+            </ul>
+
+        </ul>
+
+        <!--ordered-->
+        <h3>To do list</h3>
+        <ol>
+            <li>Take out trash</li>
+            <li>learn to code</li>
+            <li>Do homework</li>
+        </ol>
+
+        <!--description list-->
+        <h3>People in my life</h3>
+        <dl style="background-color: lightcoral;border:2px solid">
+           <dt>haji:</dt>
+           <dd>my bestie</dd>
+           <dt>james:</dt>
+           <dd>love of my life</dd>
+            <dt>oyi:</dt>
+            <dd>big sissy</dd>
+            <dt>ugo:</dt>
+            <dd>my mommy</dd>
+        </dl>
+        <!--Create a table-->
+        <h3> Store Hours</h3>
+        <table border="2" style="background-color:black"><!--boder and boxes and lines around the table-->
+            <tr align="left" style="background-color:lightpink"><!--table row-->
+                <th width="100">sunday</th><!--table header-->
+                <th width="100">monday</th>
+                <th width="100">tuesday</th>
+                <th width="100">wednesday</th>
+                <th width="100">thursday</th>
+                <th width="100">friday</th>
+                <th width="100">saturday</th>
+            </tr>
+            <tr align="left" style="background-color:powderblue"><!--can alighn center left or right-->
+                <td>closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>10-2</td>
+            </tr>
+        </table>
+        <br>
+        <!--buttons-->
+        <a href="https://www.youtube.com/watch?v=23vDJVsjaB4&list=RD23vDJVsjaB4&start_radio=1" target="_blank" title="daniel cesar songs">
+        <button style="font-size:20px; background-color: lightpink; color:whitesmoke;border-radius:5px" >click me</button></a>
+
+
+        <a href="lyrics.html" target="_blank" title="next page">
+        <button onclick= 'doSomething()' style="font-size:20px; background-color: lightpink; color:whitesmoke;border-radius:5px" >go to next page</button></a>
+        <p id="greeting">Hello</p>
+        <script>
+            function doSomething(){
+                document.getElementById('greeting').innerHTML='goodbye<3'
+
+            }
+        </script>
+        <!--Forms-->
+         <!--action is used to tell where the form will be saved after submission method attribut specifies if it is a get of post request
+         POST:confidential infor passwords
+         GET:Insentitive infor-->
+        <form action="index.php" method="POST">
+            <label for="username" >username:</label>
+            <input type="text" id="username" placeholder="moneyhiest" minlength='6' maxlength="10" requireds>
+            <br>
+            <label for="password" >password:</label>
+            <input type="password" id="password" placeholder="******" minlength="8">
+             <br>
+
+            <label for="email" >email:</label>
+            <input type="email" id="email" placeholder="toykohiest@gmail.com"><br>
+            <label for="phone" >phone#:</label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9](3)-[0-9](3)-[0-9](4)" required><br>
+            <label for="bday" >birthday#:</label>
+            <input type="date" id="bday" required><br>
+            <label for="quantity" >quantity#:</label>
+            <input type="number" id="quantity"  required><br>
+            <input type="reset"><br>
+            <input type="submit">
+
+
+        </form>
+
+    </body>
+</html>

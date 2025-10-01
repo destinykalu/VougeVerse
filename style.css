@@ -1,0 +1,86 @@
+#logo1{
+    height: 20px;
+    position: relative;
+    left: 50px;
+}
+#logo2{
+    height: 200px;
+    position: relative;
+    left: 250px;
+    top:-100px;
+
+}
+#header{
+   background-image: url('hbg.jpg');
+}
+#body{
+    background-color:white;
+    overflow: hidden;
+    
+}
+#text-box{
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 0%;
+
+}
+#text{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+   
+}
+#line{
+    font-size:30px;
+    margin: 0%;
+    text-align: center;
+}
+.slider{
+    overflow: hidden;
+    position:relative ;
+}
+.slider_item img{
+    position: relative;
+    height:500px;
+    width: 370px;
+    border-radius: 25px;
+    left: 150px;
+    margin-top: 0%;
+   
+}
+.slider_item{
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+    display: none;
+
+}
+.slider_item--selected{
+    display: block;
+
+}
+.slider_nav{
+    width: 100%;
+    padding:20px 0;
+    position: relative;
+    bottom:0;
+    left: 300px;
+    top: -100px;
+   
+
+}
+.slider_button{
+    width: 10px;
+    height:10px;
+    display:inline-block;
+    background: rgb(210, 118, 118);
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+.slider_button--selected{
+    background:rgb(151, 46, 46);
+}
