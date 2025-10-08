@@ -11,7 +11,7 @@
 
 }
 #header{
-   background-image: url('hbg.jpg');
+   background-image: url('images/hbg.jpg');
 }
 #body{
     background-color:white;
@@ -103,4 +103,29 @@
 }
 .slider_button--selected{
     background:rgb(151, 46, 46);
+}
+/* this is page 2 css styling*/
+#body2{
+    overflow-x: hidden;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.cards{
+   justify-content: space-evenly;
+   margin: 5px;
+   width: 100%;
+   background: rgb(210, 118, 118);
+   height:470px;
+   width: 320px;
+   border-radius: 25px;
+}
+.card_text{
+    text-align: center;
+    margin-top: 50%;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
 }
