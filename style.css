@@ -1,12 +1,13 @@
 #logo1{
-    height: 20px;
+    height: 15px;
     position: relative;
-    left: 50px;
+    left: 70px;
 }
 #logo2{
-    height: 200px;
-    position: relative;
-    left: 250px;
+    display: block;
+    height: 100px;
+    position:relative;
+    left: 340px;
     top:-100px;
 
 }
@@ -19,7 +20,7 @@
     cursor: url("images/pointer.cur"), auto;
     
 }
-#text-box{
+#welcome-text-box{
     position: relative;
     float: left;
     width: 50%;
@@ -30,20 +31,30 @@
     overflow: auto;
 
 }
-#text{
+#body-text{
+    font-family:'Times New Roman', Times, serif;
+    
+}
+#header-text{
     font-size: 100px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 0%;
    
 }
-#line{
-    font-size:30px;
-    margin: 0%;
-    text-align: center;
+.header-tabs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
 }
 #startbutton{
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
     font-size: 50px;
     margin: 0%;
     top: -50px;
